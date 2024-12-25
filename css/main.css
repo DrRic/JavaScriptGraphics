@@ -28,6 +28,12 @@ h1 {
     font-weight: normal;
   }
 
+
+  
+.heading:hover {
+    cursor: pointer;
+  }
+
 h2 {
 font-size: 32px;
 font-weight: normal;
@@ -36,12 +42,12 @@ font-weight: normal;
 #link{
     margin-left: 10%;
     font-weight: lighter;
-    color: darkgray;
+    color: rgb(94, 93, 93);
 }
 
 #link:hover {
 font-weight: normal;
-text-decoration: underline;
+
 cursor: pointer;
 color: black;
 }

@@ -23,7 +23,7 @@ fetch(aFile)
   .then(html => {
     loadHTML(html);
     if(aFunction!=null){
-        aFunction;
+      aFunction();
     }
   })
   .catch(error => {

@@ -7,19 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="css/main.css" rel="stylesheet" />
   <script src="js/main.js"></script>
+  <script src="js/canvas1.js"></script>
 
 </head>
 
 <body>
   <div id="left-panel">
     <h1 onclick="load('pages/test.html')" class="heading">JavaScript graphics</h1>
-    <div id="link" onclick="load('pages/test2.html')">Test</div>
+    <div id="link" onclick="load('pages/test2.html',canvas1)">Draw a triangle</div>
     
   </div>
   <div id="right-panel">
     <div id="target"></div>
   </div>
 </body>
+
 <script>
   load("pages/test.html")
 </script>
